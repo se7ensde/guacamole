@@ -1,9 +1,7 @@
 [
  {
-   "remote": "gitlab",
-   "repository":  "HolyDragonProject/android_kernel_oneplus_sm8150",
-   "target_path": "kernel/oneplus/sm8150",
-   "branch"      : "aospc"
+   "repository":  "kernel_oneplus_sm8150",
+   "target_path": "kernel/oneplus/sm8150"
  },
  {
    "repository":  "vendor_oneplus_guacamole",

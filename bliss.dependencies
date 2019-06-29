@@ -1,21 +1,21 @@
 [
  {
    "remote":      "github",
-   "repository":  "AOSiP-Devices/device_oneplus_sm8150-common",
+   "repository":  "pimpmaneaton/device_oneplus_sm8150-common",
    "target_path": "device/oneplus/sm8150-common",
-   "branch":      "pie"
+   "branch":      "p9.0"
  },
  {
    "remote":      "github",
-   "repository":  "AOSiP-Devices/kernel_oneplus_sm8150",
+   "repository":  "pimpmaneaton/android_kernel_oneplus_sm8150",
    "target_path": "kernel/oneplus/sm8150",
-   "branch":      "pie"
+   "branch":      "p9.0"
  },
  {
    "remote":      "github",
-   "repository":  "AOSiP-Devices/vendor_oneplus_sm8150-common",
+   "repository":  "pimpmaneaton/vendor_oneplus_sm8150-common",
    "target_path": "vendor/oneplus/sm8150-common",
-   "branch":      "pie"
+   "branch":      "p9.0"
  },
  { 
    "remote":      "github",

@@ -7,12 +7,13 @@
 
 BOARD_VENDOR := oneplus
 DEVICE_PATH := device/oneplus/guacamole
+PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := OnePlus7Pro
 
 # Kernel
-TARGET_KERNEL_CONFIG := SD_defconfig
+TARGET_KERNEL_CONFIG := vendor/sm8150-perf_defconfig
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 100663296
@@ -34,3 +35,7 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # System.prop
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
+# Treble
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+

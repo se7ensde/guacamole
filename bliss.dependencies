@@ -1,19 +1,19 @@
 [
  {
    "remote":      "github",
-   "repository":  "pimpmaneaton/device_oneplus_sm8150-common",
+   "repository":  "BlissRoms-Devices/device_oneplus_sm8150-common",
    "target_path": "device/oneplus/sm8150-common",
    "branch":      "p9.0"
  },
  {
    "remote":      "github",
-   "repository":  "pimpmaneaton/android_kernel_oneplus_sm8150",
+   "repository":  "BlissRoms-Devices/android_kernel_oneplus_sm8150",
    "target_path": "kernel/oneplus/sm8150",
    "branch":      "p9.0"
  },
  {
    "remote":      "github",
-   "repository":  "pimpmaneaton/vendor_oneplus_sm8150-common",
+   "repository":  "BlissRoms-Devices/vendor_oneplus_sm8150-common",
    "target_path": "vendor/oneplus/sm8150-common",
    "branch":      "p9.0"
  },

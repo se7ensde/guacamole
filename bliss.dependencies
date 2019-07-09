@@ -7,6 +7,12 @@
  },
  {
    "remote":      "github",
+   "repository":  "BlissRoms-Devices/android_device_oneplus_common",
+   "target_path": "device/oneplus/common",
+   "branch":      "p9.0-7pro"
+ },
+ {
+   "remote":      "github",
    "repository":  "BlissRoms-Kernels/android_kernel_oneplus_sm8150",
    "target_path": "kernel/oneplus/sm8150",
    "branch":      "p9.0"

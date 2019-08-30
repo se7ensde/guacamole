@@ -15,14 +15,14 @@
    "remote":      "github",
    "repository":  "BlissRoms-Devices/android_kernel_oneplus_sm8150",
    "target_path": "kernel/oneplus/sm8150",
-   "revision":      "p9.0-red"
+   "revision":    "p9.0-red"
  },
- {
+  {
    "remote":      "github",
-   "repository":  "BlissRoms-Devices/vendor_oneplus_sm8150-common",
-   "target_path": "vendor/oneplus/sm8150-common",
-   "revision":      "p9.0"
- },
+   "repository":  "BlissRoms-Devices/proprietary_vendor_oneplus",
+   "target_path": "vendor/oneplus",
+   "revision":    "p9.0"
+  },
  { 
    "remote":      "github",
    "repository":  "LineageOS/android_packages_resources_devicesettings",

@@ -6,7 +6,8 @@
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=560
+    ro.sf.lcd_density=560 \
+    vendor.display.disable_mask_layer_hint=1
 
 
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -14,13 +15,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.build.real.device=true \
     vendor.product.device=guacamole \
     vendor.product.manufacturer=oneplus
-
-# SurfaceFlinger
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.surface_flinger.set_idle_timer_ms=500 \
-    ro.surface_flinger.set_touch_timer_ms=750 \
-    ro.surface_flinger.set_display_power_timer_ms=1000 \
-    ro.surface_flinger.use_smart_90_for_video=true \
-    ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
-    ro.surface_flinger.vsync_event_phase_offset_ns=2000000 \
-    ro.surface_flinger.vsync_sf_event_phase_offset_ns=6000000

@@ -30,9 +30,12 @@ TARGET_SCREEN_HEIGHT := 3120
 TARGET_SCREEN_WIDTH := 1440
 
 # Build info
+bliss_guacamole.mk
 PRODUCT_BUILD_PROP_OVERRIDES += \
+BUILD_FINGERPRINT := "OnePlus/OnePlus7Pro/OnePlus7Pro:10/QKQ1.190716.003/2003131900:user/release-keys"
     TARGET_DEVICE=OnePlus7Pro \
-    PRODUCT_NAME=OnePlus7Pro
+    PRODUCT_NAME=OnePlus7Pro \
+    PRIVATE_BUILD_DESC="OnePlus7Pro-user 10 QKQ1.190716.003 2003131900 release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 

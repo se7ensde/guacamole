@@ -37,6 +37,10 @@ TARGET_HAS_FOD := true
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=OnePlus7Pro \
     PRODUCT_NAME=OnePlus7Pro
+    
+# Device Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.bliss.maintainer=SINESTRO
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 

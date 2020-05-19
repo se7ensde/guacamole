@@ -7,7 +7,7 @@
  },
  {
    "remote":      "github",
-   "repository":  "BlissRoms-Devices/android_device_oneplus_common",
+   "repository":  "BlissRoms-Devices/common",
    "target_path": "device/oneplus/common",
    "revision":    "q-7pro"
  },

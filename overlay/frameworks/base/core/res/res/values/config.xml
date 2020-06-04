@@ -171,6 +171,7 @@
          values in the config_screenBrightnessNits array.
          This array should be equal in size to config_screenBrightnessBacklight. -->
     <integer-array name="config_screenBrightnessBacklight">
+        <item>0</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
@@ -196,7 +197,6 @@
         <item>23</item>
         <item>24</item>
         <item>25</item>
-        <item>26</item>
         <item>27</item>
         <item>28</item>
         <item>29</item>
@@ -451,8 +451,8 @@
          when adapting to brighter or darker environments.  This parameter controls how quickly
          brightness changes occur in response to an observed change in light level that exceeds the
          hysteresis threshold. -->
-    <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
-    <integer name="config_autoBrightnessDarkeningLightDebounce">4000</integer>
+    <integer name="config_autoBrightnessBrighteningLightDebounce">3000</integer>
+    <integer name="config_autoBrightnessDarkeningLightDebounce">3000</integer>
 
     <!-- Amount of time it takes for the light sensor to warm up in milliseconds.
          For this time after the screen turns on, the Power Manager
@@ -490,12 +490,13 @@
         <item>1300</item>
         <item>2000</item>
         <item>3300</item>
+        <item>6000</item>
     </integer-array>
 
     <!-- Initial light sensor event rate in milliseconds for automatic brightness control. This is
          used for obtaining the first light sample when the device stops dozing.
          Set this to -1 to disable this feature. -->
-    <integer name="config_autoBrightnessInitialLightSensorRate">120</integer>
+    <integer name="config_autoBrightnessInitialLightSensorRate">-1</integer>
 
 
     <!-- Array of hysteresis constraint values for brightening, represented as tenths of a
@@ -505,19 +506,20 @@
          the screen brightness is recalculated. See the config_ambientThresholdLevels
          description for how the constraint value is chosen. -->
     <integer-array name="config_ambientBrighteningThresholds">
-        <item>9000</item> <!-- 1 -->
-        <item>8000</item> <!-- 4 -->
-        <item>7000</item> <!-- 12 -->
-        <item>5000</item> <!-- 20 -->
-        <item>3500</item> <!-- 40 -->
-        <item>2500</item> <!-- 65 -->
-        <item>2000</item> <!-- 90 -->
+        <item>1000</item>
+        <item>1000</item>
+        <item>1000</item>
+        <item>1000</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>1500</item>
         <item>2000</item>
         <item>2000</item>
         <item>2000</item>
         <item>2000</item>
         <item>1500</item>
         <item>1500</item>
+        <item>1000</item>
         <item>1000</item>
         <item>1000</item>
     </integer-array>
@@ -529,21 +531,22 @@
          the screen brightness is recalculated. See the config_ambientThresholdLevels
          description for how the constraint value is chosen. -->
     <integer-array name="config_ambientDarkeningThresholds">
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
+        <item>500</item>
+        <item>500</item>
+        <item>500</item>
+        <item>500</item>
+        <item>600</item>
+        <item>600</item>
+        <item>600</item>
+        <item>600</item>
+        <item>600</item>
+        <item>600</item>
+        <item>600</item>
+        <item>600</item>
+        <item>600</item>
+        <item>500</item>
+        <item>500</item>
+        <item>500</item>
     </integer-array>
 
     <!-- An array of floats describing the screen brightness in nits corresponding to the backlight
@@ -811,11 +814,11 @@
     </array>
 	
 	<!-- System info -->
-	<string name="config_sysCPUTemp">/sys/class/thermal/thermal_zone0/temp</string>
-	<string name="config_sysBatteryTemp">/sys/class/power_supply/battery/temp</string>
-	<string name="config_sysGPUFreq">/sys/kernel/gpu/gpu_clock</string>
-	<string name="config_sysGPULoad">/sys/kernel/gpu/gpu_busy</string>
-	<integer name="config_sysCPUTempMultiplier">1000</integer>
-	<integer name="config_sysBatteryTempMultiplier">10</integer>
+   <string name="config_sysCPUTemp">/sys/class/thermal/thermal_zone0/temp</string>
+   <string name="config_sysBatteryTemp">/sys/class/power_supply/battery/temp</string>
+   <string name="config_sysGPUFreq">/sys/kernel/gpu/gpu_clock</string>
+   <string name="config_sysGPULoad">/sys/kernel/gpu/gpu_busy</string>
+   <integer name="config_sysCPUTempMultiplier">1000</integer>
+   <integer name="config_sysBatteryTempMultiplier">10</integer>
 
 </resources>

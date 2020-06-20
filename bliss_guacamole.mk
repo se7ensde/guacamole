@@ -46,5 +46,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
-BLISS_BUILDTYPE=☠️☠️☠️☠️☠️☠️☠️
+BLISS_BUILDTYPE=卩乇尺千乇匚ㄒ丨ㄖ几
 

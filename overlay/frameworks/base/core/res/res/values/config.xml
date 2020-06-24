@@ -495,7 +495,7 @@
     <!-- Initial light sensor event rate in milliseconds for automatic brightness control. This is
          used for obtaining the first light sample when the device stops dozing.
          Set this to -1 to disable this feature. -->
-    <integer name="config_autoBrightnessInitialLightSensorRate">120</integer>
+    <integer name="config_autoBrightnessInitialLightSensorRate">-1</integer>
 
 
     <!-- Array of hysteresis constraint values for brightening, represented as tenths of a

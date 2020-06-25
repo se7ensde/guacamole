@@ -40,10 +40,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=OnePlus7Pro
 PRIVATE_BUILD_DESC="OnePlus7Pro-user 10 QKQ1.190716.003 2005132200 release-keys"
 
-# Device Maintainer
-PRODUCT_PROPERTY_OVERRIDES += \
-      ro.bliss.maintainer=丂丨几乇丂ㄒ尺ㄖ
-
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 BLISS_BUILDTYPE=卩乇尺千乇匚ㄒ丨ㄖ几

@@ -33,8 +33,5 @@ PRODUCT_PACKAGES += \
 
 # Device init scripts
 PRODUCT_PACKAGES += \
-    fstab.qcom
-
-# Soong namespaces
-PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    fstab.qcom \
+    init.display.guacamole.rc

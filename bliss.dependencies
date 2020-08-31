@@ -21,6 +21,6 @@
    "remote":      "github",
    "repository":  "se7ensde/oneplus",
    "target_path": "vendor/oneplus",
-   "revision":    "10.0-OP7PRO"
+   "revision":    "q2"
   }
 ]

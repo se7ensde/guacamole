@@ -42,5 +42,5 @@ PRIVATE_BUILD_DESC="OnePlus7Pro-user 10 QKQ1.190716.003 2007240000 release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
-BLISS_BUILDTYPE=卩乇尺千乇匚ㄒ丨ㄖ几
+BLISS_BUILDTYPE=ㄗモ尺下モ匚匕工口れ
 

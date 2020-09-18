@@ -1,3 +1,0 @@
-# guacamole
-
-Fuck off pyrtle
